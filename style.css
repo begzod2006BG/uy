@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+header {
+  background-color: #413f3f;
+}
+.top-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.top-right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.a1 {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+main {
+  padding: 50px 0;
+}
+
+.main-parent {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between; /* shu yerda justify-content: space-between bermagansiz; */
+  flex-wrap: wrap;
+  gap: 20px;
+  /* padding: 40px; bu kerak emas  */
+  /* width: 300px; bu kerak emas  */
+}
+
+.main-sons {
+  width: 340px;
+}
+
+.main-sons img {
+  width: 100%;
+}
+
+.main-sons h3,
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+footer {
+  background-color: #413f3f;
+}
